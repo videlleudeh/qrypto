@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:qrypto/welcome_page.dart';
+import 'package:qrypto/profile_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const QryptoApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -12,6 +13,17 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: WelcomePage(),
+    );
+  }
+}
+
+class QryptoApp extends StatelessWidget {
+  const QryptoApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return const MaterialApp(
+      home: ProfilePage(),
     );
   }
 }
