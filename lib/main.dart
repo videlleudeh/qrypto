@@ -22,8 +22,12 @@ class QryptoApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: ProfilePage(),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        scaffoldBackgroundColor: const Color.fromRGBO(239, 232, 249, 1),
+      ),
+      home: const ProfilePage(),
     );
   }
 }
