@@ -97,12 +97,12 @@ class _ProfilePageState extends State<ProfilePage> {
               ],
             ),
           ),
-          const Placeholder(
-            fallbackHeight: 100,
-          ),
-          const Placeholder(
-            fallbackHeight: 200,
-          )
+          // const Placeholder(
+          //   fallbackHeight: 100,
+          // ),
+          // const Placeholder(
+          //   fallbackHeight: 200,
+          // )
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
